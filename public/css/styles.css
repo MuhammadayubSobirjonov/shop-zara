@@ -1,0 +1,28 @@
+#link {
+    border-bottom: 2px solid #1E2832;
+    color: #1E2832;
+}
+
+.aactive {
+    display: block;
+}
+
+.active2 {
+    display: block;
+}
+
+.size_active{
+    background-color: #3C4242;
+    color: #FFFFFF;
+    border: none;
+}
+
+.color_active{
+    border: 2px solid #3C4242;
+}
+
+.li-border-b{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 16px;
+    color: #3C4242;
+}
