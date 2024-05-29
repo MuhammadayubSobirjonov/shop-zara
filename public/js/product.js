@@ -18,6 +18,7 @@ let flex = document.querySelectorAll("#flexx")
 top1.forEach(function(item ,index){
   item.addEventListener('click' , function(){
     flex[index].classList.toggle('aactive')
+    flex[index].classList.remove("hidden")
   })
 })
 
