@@ -6,10 +6,13 @@ let cost = document.querySelectorAll("#cost")
 // minus.forEach(function (item, index) {
     minus.addEventListener('click', function () {
         numberr.innerText = Number(numberr.innerText) - 1
+        cost.innerText = Number(numberr.innerText) - 29
     })
 // })
 // minus.forEach(function (item, index) {
     plus.addEventListener('click', function () {
         numberr.innerText = Number(numberr.innerText) + 1
+        cost.innerText = Number(numberr.innerText) + 29
+
     })
 // })
