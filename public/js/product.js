@@ -15,8 +15,8 @@ closeMenu.addEventListener('click', function () {
 let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
 
-top1.forEach(function(item ,index){
-  item.addEventListener('click' , function(){
+top1.forEach(function (item, index) {
+  item.addEventListener('click', function () {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
   })
@@ -25,10 +25,11 @@ top1.forEach(function(item ,index){
 let openR = document.querySelector("#open_range")
 let inp = document.querySelector("#inp")
 
-openR.forEach(function(item , index){
-    item.addEventListener('click' , function(){
-        inp.classList.toggle("active2")
-    })
+openR.forEach(function (item, index) {
+  item.addEventListener('click', function () {
+    inp.classList.toggle('block')
+    inp.classList.toggle("hidden")
+  })
 })
 // let color = document.querySelector("#color1")
 
