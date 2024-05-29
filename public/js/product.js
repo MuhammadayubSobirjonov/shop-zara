@@ -16,12 +16,15 @@ let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
 let colors = document.querySelector("#colors")
 
+top1.addEventListener('click', function () {
+
+  colors.classList.toggle("active2")
+})
 top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
     item.classList.toggle("rotate-90")
-    colors.classList.toggle("active2")
   })
 })
 
