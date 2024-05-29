@@ -1,18 +1,20 @@
-let minus = document.querySelector("#minus")
-let numberr = document.querySelector("#number")
-let plus = document.querySelector("#plus")
+let minus = document.querySelectorAll("#minus")
+let numberr = document.querySelectorAll("#number")
+let plus = document.querySelectorAll("#plus")
 let cost = document.querySelectorAll("#cost")
 
-// minus.forEach(function (item, index) {
-    minus.addEventListener('click', function () {
-        numberr.innerText = Number(numberr.innerText) - 1
-        cost.innerText = Number(numberr.innerText) - 29
+minus.forEach(function (item, index) {
+    item.addEventListener('click', function () {
+        numberr[index].innerText = Number(numberr[index].innerText) - 1
+        cost[index].innerText = Number(cost[index].innerText) - 29
     })
-// })
-// minus.forEach(function (item, index) {
-    plus.addEventListener('click', function () {
-        numberr.innerText = Number(numberr.innerText) + 1
-        cost.innerText = Number(numberr.innerText) + 29
+})
 
+
+
+plus.forEach(function (item, index) {
+    item.addEventListener('click', function () {
+        numberr[index].innerHTML = Number(numberr[index].innerHTML) + 1
+        cost[index].innerHTML = Number(cost[index].innerHTML) + 29
     })
-// })
+})
