@@ -11,6 +11,10 @@
     display: none;
 }
 
+.active3{
+    display: block;
+}
+
 .size_active{
     background-color: #3C4242;
     color: #FFFFFF;
