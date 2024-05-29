@@ -43,7 +43,7 @@ let size = document.querySelector("#size")
 let btn2 = document.querySelector("#btn-2")
 btn2.addEventListener('click' , function() {
   size.classList.toggle("hidden")
-  btn2.classList.toggle("rotate-[50%]")
+  btn2.classList.toggle("rotate-90")
 })
 
 let style1 = document.querySelector("#style1")
@@ -51,7 +51,7 @@ let btn3 = document.querySelector("#btn-3")
 btn3.addEventListener('click' , function(){
   style1.classList.toggle("block")
   style1.classList.toggle("hidden")
-  btn3.classList.toggle("rotate-[50%]")
+  btn3.classList.toggle("rotate-90")
 })
 // let color = document.querySelector("#color1")
 
