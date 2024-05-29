@@ -17,8 +17,7 @@ let flex = document.querySelectorAll("#flexx")
 let colors = document.querySelector("#colors")
 let btnn = document.querySelector("#btn")
 btnn.addEventListener('click', function () {
-
-  colors.classList.toggle("active2")
+  colors.classList.toggle("hidden")
 })
 top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
