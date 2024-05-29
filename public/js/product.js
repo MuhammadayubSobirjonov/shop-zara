@@ -34,8 +34,10 @@ openR.addEventListener('click', function () {
 
 let colors = document.querySelector("#colors")
 let btnn = document.querySelector("#btn")
+let size = document.querySelector("#size")
 btnn.addEventListener('click', function () {
   colors.classList.toggle("hidden")
+  size.classList.toggle("hidden")
   btnn.classList.toggle("rotate-[50%]")
 })
 
