@@ -22,14 +22,14 @@ top1.forEach(function(item ,index){
   })
 })
 
-// let openR = document.querySelector("#open_range")
-// let inp = document.querySelector("#inp")
+let openR = document.querySelector("#open_range")
+let inp = document.querySelector("#inp")
 
-// openR.forEach(function(item , index){
-//     item.addEventListener('click' , function(){
-//         inp.classList.toggle("active2")
-//     })
-// })
+openR.forEach(function(item , index){
+    item.addEventListener('click' , function(){
+        inp.classList.toggle("active2")
+    })
+})
 // let color = document.querySelector("#color1")
 
 // let array = ["fe"]
