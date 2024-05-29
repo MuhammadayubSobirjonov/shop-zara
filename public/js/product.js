@@ -12,7 +12,7 @@ closeMenu.addEventListener('click', function () {
   resMenu.classList.remove("right-0")
 })
 
-let top1 = document.querySelectorAll("#top")
+let top = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
 
 top1.forEach(function (item, index) {
@@ -20,14 +20,13 @@ top1.forEach(function (item, index) {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
     item.classList.toggle("rotate-90")
+    color.classList.toggle("block")
   })
 })
 
-let top2 = document.querySelectorAll("#top1")
-let color = document.querySelector("#colors")
 
-top2.addEventListener("click" , function(){
-  color.classList.toggle("active2")
+top2.addEventListener('click' , function() {
+  
 })
 
 let openR = document.querySelector("#open_range")
