@@ -19,7 +19,7 @@ top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
-    item[index].classList.toggle("rotate-[50%]")
+    item.classList.toggle("rotate-90")
   })
 })
 
