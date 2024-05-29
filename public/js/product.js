@@ -35,7 +35,6 @@ let btn = document.querySelector("#button_range")
 
   top1.addEventListener("click" , function(){
     color.classList.toggle("block")
-    color.classList.toggle("hidden")
   })
 
 // let color = document.querySelector("#color1")
