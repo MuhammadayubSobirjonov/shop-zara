@@ -13,7 +13,7 @@ closeMenu.addEventListener('click', function () {
 })
 
 let top1 = document.querySelectorAll("#top")
-let flex = document.querySelectorAll("#flex")
+let flex = document.querySelectorAll("#flexx")
 
 top1.forEach(function(item ,index){
   item.addEventListener('click' , function(){
