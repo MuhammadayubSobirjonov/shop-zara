@@ -25,10 +25,6 @@ top1.forEach(function (item, index) {
 })
 
 
-top2.addEventListener('click' , function() {
-  
-})
-
 let openR = document.querySelector("#open_range")
 let inp = document.querySelector("#inp")
 let btn = document.querySelector("#button_range")
