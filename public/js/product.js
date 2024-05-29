@@ -15,8 +15,8 @@ closeMenu.addEventListener('click', function () {
 let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
 let colors = document.querySelector("#colors")
-
-top1.addEventListener('click', function () {
+let btnn = document.querySelector("#btn")
+btnn.addEventListener('click', function () {
 
   colors.classList.toggle("active2")
 })
