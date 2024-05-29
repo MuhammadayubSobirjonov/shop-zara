@@ -27,6 +27,7 @@ let inp = document.querySelector("#inp")
 
   openR.addEventListener('click', function () {
     inp.classList.toggle('active2')
+    inp.classList.toggle('rotate-90d')
   })
 // let color = document.querySelector("#color1")
 
