@@ -19,9 +19,11 @@ top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
-    top1.classList.toggle("rotate-[50%]")
   })
 })
+top1.addEventListener('click' , function(){
+   top1.classList.toggle("rotate-[-50%]")
+ } )
 
 let openR = document.querySelector("#open_range")
 let inp = document.querySelector("#inp")
