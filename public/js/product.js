@@ -12,7 +12,7 @@ closeMenu.addEventListener('click', function () {
   resMenu.classList.remove("right-0")
 })
 
-let top = document.querySelectorAll("#top")
+let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
 
 top1.forEach(function (item, index) {
