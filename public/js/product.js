@@ -27,8 +27,7 @@ let inp = document.querySelector("#inp")
 
 openR.forEach(function (item, index) {
   item.addEventListener('click', function () {
-    inp.classList.toggle('block')
-    inp.classList.toggle("hidden")
+    inp.classList.toggle('active2')
   })
 })
 // let color = document.querySelector("#color1")
