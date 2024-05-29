@@ -18,3 +18,12 @@ plus.forEach(function (item, index) {
         cost[index].innerHTML = Number(cost[index].innerHTML) + 29
     })
 })
+
+let del = document.querySelectorAll("#del")
+let cart = document.querySelectorAll("#cart")
+
+del.forEach(function(item , index){
+    item.addEventListener('click' , function(){
+        cart[index].style.display = 'none'
+    })
+})
