@@ -14,8 +14,6 @@ closeMenu.addEventListener('click', function () {
 
 let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
-let color = document.querySelector("#colors")
-let top2 = document.querySelectorAll("#top1")
 
 top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
@@ -24,6 +22,9 @@ top1.forEach(function (item, index) {
     item.classList.toggle("rotate-90")
   })
 })
+
+let top2 = document.querySelectorAll("#top1")
+let color = document.querySelector("#colors")
 
 top2.addEventListener("click" , function(){
   color.classList.toggle("active2")
