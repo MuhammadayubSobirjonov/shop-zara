@@ -37,7 +37,7 @@ let btn = document.querySelector("#btn-1")
 btn.addEventListener('click', function () {
   colors.classList.toggle("hidden")
   size.classList.toggle("hidden")
-  btn.classList.toggle("rotate-[50%]")
+  btn.classList.toggle("rotate-90")
 })
 let size = document.querySelector("#size")
 let btn2 = document.querySelector("#btn-2")
