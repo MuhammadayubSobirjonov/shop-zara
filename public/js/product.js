@@ -14,12 +14,14 @@ closeMenu.addEventListener('click', function () {
 
 let top1 = document.querySelectorAll("#top")
 let flex = document.querySelectorAll("#flexx")
+let color = document.querySelector("#colors")
 
 top1.forEach(function (item, index) {
   item.addEventListener('click', function () {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
     item.classList.toggle("rotate-90")
+    color.classList.toggle("hidden")
   })
 })
 
@@ -30,11 +32,6 @@ let btn = document.querySelector("#button_range")
   openR.addEventListener('click', function () {
     inp.classList.toggle('active2')
     btn.classList.toggle("rotate-[50%]")
-  })
-  let color = document.querySelector("#colors")
-
-  top1.addEventListener("click" , function(){
-    color.classList.toggle("hidden")
   })
 
 // let color = document.querySelector("#color1")
