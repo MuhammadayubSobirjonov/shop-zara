@@ -18,7 +18,7 @@ let flex = document.querySelectorAll("#flexx")
 top1.forEach(function(item ,index){
   item.addEventListener('click' , function(){
     flex[index].classList.toggle('block')
-    flex[index].classList.remove("hidden")
+    flex[index].classList.toggle("hidden")
   })
 })
 
