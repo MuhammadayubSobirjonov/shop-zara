@@ -9,7 +9,7 @@ minus.forEach(function (item, index) {
     })
 })
 minus.forEach(function (item, index) {
-    plus.addEventListener('click', function () {
+    item.addEventListener('click', function () {
         number.innerText = Number(number.innerText) + 1
     })
 })
