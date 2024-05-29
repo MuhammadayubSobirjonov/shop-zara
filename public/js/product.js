@@ -49,7 +49,7 @@ btn2.addEventListener('click' , function() {
 let style1 = document.querySelector("#style1")
 let btn3 = document.querySelector("#btn-3")
 btn3.addEventListener('click' , function(){
-  style.classList.toggle("block")
+  style1.classList.toggle("block")
   btn3.classList.toggle("rotate-[50%]")
 })
 // let color = document.querySelector("#color1")
