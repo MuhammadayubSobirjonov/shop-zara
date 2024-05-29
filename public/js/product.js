@@ -21,7 +21,7 @@ top1.forEach(function (item, index) {
     flex[index].classList.toggle('block')
     flex[index].classList.toggle("hidden")
     item.classList.toggle("rotate-90")
-    color.classList.toggle("hidden")
+    color.classList.toggle("active2")
   })
 })
 
