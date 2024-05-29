@@ -25,23 +25,26 @@ top1.forEach(function (item, index) {
 
 let openR = document.querySelector("#open_range")
 let inp = document.querySelector("#inp")
-let btn = document.querySelector("#button_range")
+let btnr = document.querySelector("#button_range")
 
 openR.addEventListener('click', function () {
   inp.classList.toggle('active2')
-  btn.classList.toggle("rotate-[50%]")
+  btnr.classList.toggle("rotate-[50%]")
 })
 
 let colors = document.querySelector("#colors")
-let btnn = document.querySelector("#btn")
-let size = document.querySelector("#size")
-btnn.addEventListener('click', function () {
+let btn = document.querySelector("#btn-1")
+btn.addEventListener('click', function () {
   colors.classList.toggle("hidden")
   size.classList.toggle("hidden")
-  btnn.classList.toggle("rotate-[50%]")
+  btn.classList.toggle("rotate-[50%]")
 })
-
-
+let size = document.querySelector("#size")
+let btn2 = document.querySelector("#btn-2")
+btn2.addEventListener('click' , function() {
+  size.classList.toggle("hidden")
+  btn2.classList.toggle("rotate-[50%]")
+})
 // let color = document.querySelector("#color1")
 
 // let array = ["fe"]
